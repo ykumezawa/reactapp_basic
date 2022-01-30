@@ -3,6 +3,7 @@ import React,{useState} from 'react'
 export const Basic2 = () => {
 
     const [products, setProducts] = useState([])
+    
     const newProducts = () =>{
         setProducts([...products,{
             id:products.length,
